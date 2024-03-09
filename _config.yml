@@ -18,14 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Julien Negrotto
-email: julien@crawfi.sh
+title: Crawfish
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Julien. I write software, and sometimes write about writing software.
+  I'm too lazy to come up with a description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://crawfi.sh" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+
+permalink: "/:slug"
+
+author:
+  name: Julien Negrotto
+  email: 'julien@crawfi.sh'
 
 # Build settings
 theme: negativa
